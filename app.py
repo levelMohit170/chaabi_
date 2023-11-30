@@ -12,7 +12,7 @@ QDRANT_PATH  = "client.pkl"
 
 with open(BERT_MODEL_PATH, 'rb') as file:
     bert = pickle.load(file)
-with open("collection.pkl", "rb") as file:
+with open("client.pkl", "rb") as file:
     qdrant_client = pickle.load(file)
 
 
